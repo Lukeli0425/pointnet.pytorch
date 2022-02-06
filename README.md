@@ -1,4 +1,4 @@
-## PointNet-PointCloud
+# PointNet-PointCloud
 
 This repository is my modification of PointNet to test a subset of ShapeNetCore Data on different models. Unzip ShapeNetCore.v2.zip in the root directory, the triangle mesh in obj files will be automatically sampled to get point clouds(stored in pts files). The txt files train_list.txt and test_list.txt are the labels for the selected data.
 
@@ -8,6 +8,12 @@ python train_classification.py --dataset=./ShapeNetCore.v2 --nepoch=<number of e
 ```
 
 The test accuracy graph will be seved under the root directory.
+
+## references:
+
+[Open3D Docs](http://www.open3d.org/docs/release/index.html#)
+
+Original README.md:
 
 # PointNet.pytorch
 This repo is implementation for PointNet(https://arxiv.org/abs/1612.00593) in pytorch. The model is in `pointnet/model.py`.
