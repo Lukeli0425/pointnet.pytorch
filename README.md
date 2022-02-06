@@ -4,7 +4,7 @@ This repository is my modification of PointNet to test a subset of ShapeNetCore 
 
 To train the model on PointNet model using the selected data:
 ```bash
-python train_classification.py --dataset=./ShapeNetCore.v2 --nepoch=<number of epochs> --dataset_type <modelnet40 | shapenet | my_shapenet>
+python train_classification.py --dataset=./ShapeNetCore.v2 --nepoch <number of epochs> --dataset_type <modelnet40 | shapenet | my_shapenet>
 ```
 
 The test accuracy graph will be seved under the root directory.
